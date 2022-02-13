@@ -1,7 +1,7 @@
 {
-  "name": "𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃",
+  "name": "𝚃𝙷𝙴 𝚃𝙷𝙾𝚁𝙱𝙾𝚃",
   "description": "The ThorBot made by @THEONLYTHOR. Join for updates related info @ThorBot_Support",
-  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+  "logo": "https://telegra.ph/file/641d3f0bc507f97f1908f.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Thoropbolte/THOR-UB/",
-  "website": "https://github.com/Thoropbolte/THOR-UB/",
-  "success_url": "https://t.me/ThorBot_Support",
+  "repository": "https://github.com/Thoropbolte/THOR-USERBOT/",
+  "website": "https://github.com/Thoropbolte/THOR-USERBOT/",
+  "success_url": "https://t.me/THEONLYTHOR",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
