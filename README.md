@@ -1,7 +1,7 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/THEONLYTHOR/THOR-BOT/dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/Thoropbolte/THOR-UB/dashboard)
 [![Python 3.6](https://img.shields.io/badge/Python-3.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-360/)
-![GitHub repo size](https://img.shields.io/github/repo-size/ThorBotOP/ThorBotOP)
-[![HitCount](http://hits.dwyl.com/ThorBotOP/ThorBotOP.svg)](http://hits.dwyl.com/ThorBotOP/ThorBotOP)
+![GitHub repo size](https://img.shields.io/github/repo-size/Thoropbolte/THOR-UB)
+[![HitCount](http://hits.dwyl.com/Thoropbolte/THOR-UB.svg)](http://hits.dwyl.com/Thoropbolte/THOR-UB)
 [![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/THEONLYTHOR)
 
 
@@ -34,7 +34,7 @@ ThorBot made by @THEONLYTHOR. Supported by respective DESTROY X owner @CRiMiNAL7
 
 <h4>⚜️ DEPLOY TO HEROKU ⚜️</h4>
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThorBotIsOP%2FThorBotOP&template=https%3A%2F%2Fgithub.com%2FThorBotIsOP%2FThorBotOP" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThoropbolte%2FTHOR-UB&template=https%3A%2F%2Fgithub.com%2FThoropbolte%2FTHOR-UB" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 
 </details>
 
@@ -52,7 +52,7 @@ ThorBot made by @THEONLYTHOR. Supported by respective DESTROY X owner @CRiMiNAL7
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/THEONLYTHOR/THOR-USERBOT.git
+git clone https://github.com/Thoropbolte/THOR-USERBOT.git
 cd THOR-USERBOT
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
