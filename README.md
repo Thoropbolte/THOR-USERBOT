@@ -6,7 +6,7 @@
 
 
 
-# 𝚃𝙷𝙴 THOR𝙱𝙾𝚃
+# 𝚃𝙷𝙴 𝚃𝙷𝙾𝚁𝙱𝙾𝚃
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
 ThorBot made by @THEONLYTHOR. Supported by respective DESTROY X owner @CRiMiNAL786. Join for update related info channel and group :- https://t.me/ThorBot_Support THANKS FOR VISITING OUR REPO💖
@@ -19,7 +19,7 @@ ThorBot made by @THEONLYTHOR. Supported by respective DESTROY X owner @CRiMiNAL7
 <details>
 
   <summary> • FOR ANY QUERY • </summary>
-<h2 align="center"> <a href="https://t.me/ThorBot_Support">☢️JOIN THORBOT SUPPORT☢️</a></h2>
+<h2 align="center"> <a href="https://t.me/THEONLYTHOR">☢️JOIN THORBOT SUPPORT☢️</a></h2>
 
 </details>
 
