@@ -1,0 +1,52 @@
+#!/bin/bash
+
+
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $THOR_REPO == "thorbot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $THOR_REPO == "THORBOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $THOR_REPO =~ $regex ]]
+    then
+        if [[ $THOR_REPO_BRANCH ]]
+        then
+            echo "${THOR_REPO}/archive/${THOR_REPO_BRANCH}.zip"
+        else
+            echo "${THOR_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    fi
+}
+
+
+_set_bot () {
+    local zippath
+    zippath="thorbot.zip"
+    echo "  Downloading source code ..."
+    wget -q $(_get_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    THORPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "Done"
+    echo "  Cleaning ..."
+    rm -rf "$zippath"
+    sleep 5
+    cd $THORPATH
+    echo "    Starting ThorBot    "
+    echo "
+                          ╔═╦═╦══╦══╦══╦══╦══╦═╦══╗
+                          ║║║║║╔╗║═╦╩║║╣╔╗║╔╗║║╠╗╔╝
+                          ║║║║║╠╣║╔╝╔║║╣╠╣║╔╗║║║║║
+                          ╚╩═╩╩╝╚╩╝─╚══╩╝╚╩══╩═╝╚╝
+    "
+
+    python3 ./setup/updater.py ./requirements.txt requirements.txt
+    python3 -m userbot
+}
+
+_set_bot
