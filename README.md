@@ -6,11 +6,11 @@
 
 
 
-# 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃
+# 𝚃𝙷𝙴 THOR𝙱𝙾𝚃
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
 ThorBot made by @THEONLYTHOR. Supported by respective DESTROY X owner @CRiMiNAL786. Join for update related info channel and group :- https://t.me/ThorBot_Support THANKS FOR VISITING OUR REPO💖
-[![THORBOT LOGO](https://telegra.ph/file/75229ba894ef780332815.jpg)](https://t.me/ThorBot_Support)
+[![THORBOT LOGO](https://telegra.ph/file/641d3f0bc507f97f1908f.jpg)](https://t.me/THEONLYTHOR)
 
 
 # The owner would not be responsible for any kind of bans due to the bot...
