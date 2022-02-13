@@ -1,7 +1,7 @@
-FROM THEONLYTHOR/THOR-USERBOT:latest
+FROM Thoropbolte/THOR-USERBOT:latest
 
 # clonning repo 
-RUN git clone https://github.com/THEONLYTHOR/THOR-USERBOT.git /root/userbot
+RUN git clone https://github.com/Thoropbolte/THOR-USERBOT.git /root/userbot
 
 RUN pip install --upgrade pip
 
