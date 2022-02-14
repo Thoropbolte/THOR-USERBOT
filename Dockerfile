@@ -1,4 +1,4 @@
-FROM Thoropbolte/THOR-USERBOT:latest
+FROM Thoropbolte/THOR-UB:latest
 
 # clonning repo 
 RUN git clone https://github.com/Thoropbolte/THOR-UB.git /root/userbot
