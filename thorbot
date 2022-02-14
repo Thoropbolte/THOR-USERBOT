@@ -16,7 +16,7 @@ _get_repolink () {
         then
             echo "${THOR_REPO}/archive/${THOR_REPO_BRANCH}.zip"
         else
-            echo "${THOR_REPO}/archive/master.zip"
+            echo "${THOR_REPO}/archive/main.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1Rob3JvcGJvbHRlL1RIT1ItVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
